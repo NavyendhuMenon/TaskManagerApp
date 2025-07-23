@@ -10,8 +10,8 @@ connectDB();
 
 const allowedOrigins = [
   "https://task-manager-app-nu-orpin.vercel.app",
-  `http://localhost:${process.env.FRONTEND_PORT || 5173}`,
-  `http://localhost:${process.env.PORT || 5000}`
+  "http://localhost:5173",
+  "http://localhost:3000"
 ];
 
 
