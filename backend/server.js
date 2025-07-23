@@ -9,7 +9,7 @@ const app = express();
 connectDB();
 
 const allowedOrigins = [
-  "https://task-manager-app-nu-orpin.vercel.app/",
+  "https://task-manager-app-nu-orpin.vercel.app",
   `http://localhost:${process.env.FRONTEND_PORT || 5173}`,
   `http://localhost:${process.env.PORT || 5000}`
 ];
